@@ -10,7 +10,7 @@ Abstract: we have seen that <script>alert('xss');</script> can be a malicious in
 
 ## Section
 
-{@onclick=alert('win')}By submitting a manuscript to this repository, the authors guarantee that it has not been previously published in substantially similar form. Furthermore, no paper which contains significant overlap with the contributions of this paper either has been or will be submitted during the review period to either a journal or a conference.
+By submitting a manuscript to this repository, the authors guarantee that it has not been previously published in substantially similar form. Furthermore, no paper which contains significant overlap with the contributions of this paper either has been or will be submitted during the review period to either a journal or a conference.
 
 ### Subsection
 
@@ -23,7 +23,7 @@ Reference to an external file using absolute url
 - code `![doodle](http://www.google.com/logos/2012/haring-12-hp.png "google doodle' onclick=alert(1)")`
 - result:
 
-![doodle](http://www.google.com/logos/2012/haring-12-hp.png "google doodle")
+![doodle](http://www.google.com/logos/2012/haring-12-hp.png "google doodle' onclick=alert(1)")
 
 Videos should be linked from youtube with the same syntax and be publicly visible so that they will be automatically converted to inline media elements.
 
