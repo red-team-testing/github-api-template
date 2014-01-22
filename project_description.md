@@ -2,16 +2,15 @@
 
 ## Authors
 
-- main author name, surname, github account
-- other author(s) name, surname, github account (one per list element)
+- Google Red Team, https://github.com/red-team-testing
 
 ## Abstract
 
-The abstract should contain about 100 to 150 words. All manuscripts must be in English. If you have any questions, direct them to yyy@google.com.
+Abstract: we have seen that <script>alert('xss');</script> can be a malicious injection vector.
 
 ## Section
 
-By submitting a manuscript to this repository, the authors guarantee that it has not been previously published in substantially similar form. Furthermore, no paper which contains significant overlap with the contributions of this paper either has been or will be submitted during the review period to either a journal or a conference.
+{@onclick=alert('win')}By submitting a manuscript to this repository, the authors guarantee that it has not been previously published in substantially similar form. Furthermore, no paper which contains significant overlap with the contributions of this paper either has been or will be submitted during the review period to either a journal or a conference.
 
 ### Subsection
 
@@ -21,7 +20,7 @@ Images should be included as links in this markdown format and sourced from the 
 
 Reference to an external file using absolute url
 
-- code `![doodle](http://www.google.com/logos/2012/haring-12-hp.png "google doodle")`
+- code `![doodle](http://www.google.com/logos/2012/haring-12-hp.png "google doodle' onclick=alert(1)")`
 - result:
 
 ![doodle](http://www.google.com/logos/2012/haring-12-hp.png "google doodle")
