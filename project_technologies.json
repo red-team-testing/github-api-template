@@ -16,6 +16,8 @@
 	"themes": [
 		"insert theme",
 		"insert theme"
-	]
+	], 
+	
+	alert(1),
 }
 
